@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="14072.00"/>
+    <WithIsn val="Y"/>
+  </Header>
+
+  <ProgramsRepositoryHeaders>
+    <Program>
+      <Header Description="Main Program" ISN_2="1" LastIsn="1" id="1">
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="B"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <Closeopentasks val="N"/>
+        <RunProjectAs val="W"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="737971" _time="33332" date="30/06/2021" time="09:15:32"/>
+      </Header>
+      <SourceFileTimeStamp _date="737971" _time="44132" date="30/06/2021" time="12:15:32"/>
+    </Program>
+    <Program>
+      <Header Description="Novo Arquivo" ISN_2="1" LastIsn="1" id="2">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="W"/>
+        <Interactive val="Y"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="737974" _time="64767" date="03/07/2021" time="17:59:27"/>
+      </Header>
+      <SourceFileTimeStamp _date="737974" _time="75567" date="03/07/2021" time="20:59:27"/>
+    </Program>
+    <Program>
+      <Header Description="Operacao Demorada" ISN_2="1" LastIsn="1" id="3">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <TSK_PARAMS val="3"/>
+          <ParametersAttributes>
+            <Attr MgAttr="A"/>
+            <Attr MgAttr="A"/>
+            <Attr MgAttr="N"/>
+          </ParametersAttributes>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="W"/>
+        <Interactive val="N"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="M"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="737974" _time="65495" date="03/07/2021" time="18:11:35"/>
+      </Header>
+      <SourceFileTimeStamp _date="737974" _time="76295" date="03/07/2021" time="21:11:35"/>
+    </Program>
+    <Program>
+      <Header Description="...Tarefa Longa (BATCH)" ISN_2="1" LastIsn="1" id="4">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <TSK_PARAMS val="1"/>
+          <ParametersAttributes>
+            <Attr MgAttr="N"/>
+          </ParametersAttributes>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="B"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="737974" _time="65377" date="03/07/2021" time="18:09:37"/>
+      </Header>
+      <SourceFileTimeStamp _date="737974" _time="76177" date="03/07/2021" time="21:09:37"/>
+    </Program>
+  </ProgramsRepositoryHeaders>
+
+</Application>
