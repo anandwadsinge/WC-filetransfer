@@ -13,7 +13,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="Novo Arquivo" ISN_2="1" LastIsn="1" id="2">
+        <Header Description="New File" ISN_2="1" LastIsn="1" id="2">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -28,7 +28,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737974" _time="64767" date="03/07/2021" time="17:59:27"/>
+          <LastModified _date="738055" _time="85171" date="22/09/2021" time="23:39:31"/>
         </Header>
         <ItemIsn val="7"/>
         <Resource>
@@ -229,13 +229,13 @@
               <LogicLine>
                 <Remark FlowIsn="6">
                   <Type val="2"/>
-                  <Text val="// Aqui, o BLOB contém os dados (conteúdo) do arquivo enviado ( como Base64 )"/>
+                  <Text val="// Here, the BLOB contains the data (content) of the uploaded file ( as Base64 )"/>
                 </Remark>
               </LogicLine>
               <LogicLine>
                 <Remark FlowIsn="18">
                   <Type val="2"/>
-                  <Text val="// e o ALPHA contém o nome original do arquivo enviado"/>
+                  <Text val="// and the ALPHA contains the original name of the uploaded file"/>
                 </Remark>
               </LogicLine>
               <LogicLine>
@@ -386,7 +386,7 @@
               <LogicLine>
                 <Remark FlowIsn="36">
                   <Type val="2"/>
-                  <Text val="// Parte 1 do processamento demorado"/>
+                  <Text val="// Part 1 of the time-consuming processing"/>
                 </Remark>
               </LogicLine>
               <LogicLine>
@@ -429,7 +429,7 @@
               <LogicLine>
                 <Remark FlowIsn="38">
                   <Type val="2"/>
-                  <Text val="// Parte 2 do processamento demorado"/>
+                  <Text val="// Part 2 of the time-consuming processing"/>
                 </Remark>
               </LogicLine>
               <LogicLine>
@@ -472,7 +472,7 @@
               <LogicLine>
                 <Remark FlowIsn="41">
                   <Type val="2"/>
-                  <Text val="// Parte 3 do processamento demorado"/>
+                  <Text val="// Part 3 of the time-consuming processing"/>
                 </Remark>
               </LogicLine>
               <LogicLine>
@@ -530,11 +530,11 @@
               <Height id="24" val="134"/>
               <FormUnits id="33" val="4"/>
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="NovoArquivo"/>
+              <FormName id="311" valUnicode="NewFile"/>
             </PropertyList>
             <Control _test_id="1" id="1">
               <PropertyList model="CTRL_WEB_CLIENT_LABEL">
-                <Text id="19" valUnicode="Clique no botão abaixo, para enviar um novo arquivo:"/>
+                <Text id="19" valUnicode="Click on the button below to upload a new file:"/>
                 <X id="21" val="13"/>
                 <Y id="22" val="13"/>
                 <Width id="23" val="336"/>
@@ -588,7 +588,7 @@
                 <Width id="23" val="135"/>
                 <Height id="24" val="22"/>
                 <ControlName id="46" val="btnQuit"/>
-                <Format id="82" valUnicode="Sair e Encerrar"/>
+                <Format id="82" valUnicode="Exit"/>
                 <RaiseEvent id="234">
                   <EventType val="I"/>
                   <InternalEventID val="28"/>
@@ -599,15 +599,15 @@
         </TaskForms>
         <Expressions>
           <Expression id="6">
-            <ExpSyntax val="'Aguarde (passo 1 de 3): Processando dados do arquivo carregado...'"/>
+            <ExpSyntax val="'Please wait (step 1 of 3): Processing data from uploaded file...'"/>
             <ExpAttribute val="A"/>
           </Expression>
           <Expression id="8">
-            <ExpSyntax val="'Aguarde (passo 2 de 3): Analisando e validando dados carregados...'"/>
+            <ExpSyntax val="'Please wait (step 2 of 3): Analyzing and validating uploaded data...'"/>
             <ExpAttribute val="A"/>
           </Expression>
           <Expression id="10">
-            <ExpSyntax val="'Aguarde (passo 3 de 3): Transferindo dados para a base corporativa...'"/>
+            <ExpSyntax val="'Please wait (step 3 of 3): Transferring data to corporate database...'"/>
             <ExpAttribute val="A"/>
           </Expression>
           <Expression id="7">
@@ -623,11 +623,11 @@
             <ExpAttribute val="A"/>
           </Expression>
           <Expression id="5">
-            <ExpSyntax val="'Bytes recebidos: ' &amp; Trim( Str( {0,3} / 1024, 'N10 KiB' ) ) &amp; ASCIIChr(13) &amp; ASCIIChr(13) &amp; 'Arquivo salvo em: ' &amp; Trim( {0,4} )"/>
+            <ExpSyntax val="'Bytes received: ' &amp; Trim( Str( {0,3} / 1024, 'N10 KiB' ) ) &amp; ASCIIChr(13) &amp; ASCIIChr(13) &amp; 'File saved in: ' &amp; Trim( {0,4} )"/>
             <ExpAttribute val="A"/>
           </Expression>
           <Expression id="12">
-            <ExpSyntax val="'Processado finalizado, no servidor de aplicação. Tempo total: ' &amp; mTStr( {0,5} + {0,6} + {0,7}, 'HH:MM:SS,mmm' )"/>
+            <ExpSyntax val="'Processed finished, on the application server. Total time: ' &amp; mTStr( {0,5} + {0,6} + {0,7}, 'HH:MM:SS,mmm' )"/>
             <ExpAttribute val="A"/>
           </Expression>
           <Expression id="4">

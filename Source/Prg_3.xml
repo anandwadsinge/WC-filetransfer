@@ -13,7 +13,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="Operacao Demorada" ISN_2="1" LastIsn="1" id="3">
+        <Header Description="Delayed Operation" ISN_2="1" LastIsn="1" id="3">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -33,12 +33,12 @@
           <Offline val="N"/>
           <FormType val="M"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737974" _time="65495" date="03/07/2021" time="18:11:35"/>
+          <LastModified _date="738055" _time="85181" date="22/09/2021" time="23:39:41"/>
         </Header>
         <ItemIsn val="5"/>
         <Resource>
           <Columns>
-            <Column id="1" name="pMensagem Usuario">
+            <Column id="1" name="pUser Message">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
                 <Picture id="157" valUnicode="1000"/>
@@ -47,7 +47,7 @@
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
-            <Column id="2" name="pComando">
+            <Column id="2" name="pCommand">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
                 <Picture id="157" valUnicode="100"/>
@@ -282,7 +282,7 @@
               <LogicLine>
                 <Remark FlowIsn="17">
                   <Type val="2"/>
-                  <Text val="// Executa alguma determinada tarefa 'BATCH'"/>
+                  <Text val="// Perform some specific 'BATCH' task"/>
                 </Remark>
               </LogicLine>
               <LogicLine>
@@ -325,7 +325,7 @@
               <LogicLine>
                 <Remark FlowIsn="20">
                   <Type val="2"/>
-                  <Text val="// Executa alguma outra tarefa 'BATCH'"/>
+                  <Text val="// Perform some other 'BATCH' task"/>
                 </Remark>
               </LogicLine>
               <LogicLine>
@@ -368,7 +368,7 @@
               <LogicLine>
                 <Remark FlowIsn="24">
                   <Type val="2"/>
-                  <Text val="// Executa alguma outra tarefa 'BATCH'"/>
+                  <Text val="// Perform some other 'BATCH' task"/>
                 </Remark>
               </LogicLine>
               <LogicLine>
@@ -422,7 +422,7 @@
             <PropertyList model="FORM_WEB_CLIENT">
               <FormUnits id="33" val="4"/>
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="OperacaoDemorada"/>
+              <FormName id="311" valUnicode="DelayedOperation"/>
               <WindowType id="358" val="12"/>
             </PropertyList>
             <Control _test_id="1" id="1">
@@ -443,15 +443,15 @@
             <ExpAttribute val="A"/>
           </Expression>
           <Expression id="3">
-            <ExpSyntax val="Upper( Trim( {0,2} ) ) = 'TAREFA1'"/>
+            <ExpSyntax val="Upper( Trim( {0,2} ) ) = 'TASK1'"/>
             <ExpAttribute val="B"/>
           </Expression>
           <Expression id="5">
-            <ExpSyntax val="Upper( Trim( {0,2} ) ) = 'TAREFA2'"/>
+            <ExpSyntax val="Upper( Trim( {0,2} ) ) = 'TASK2'"/>
             <ExpAttribute val="B"/>
           </Expression>
           <Expression id="7">
-            <ExpSyntax val="Upper( Trim( {0,2} ) ) = 'TAREFA3'"/>
+            <ExpSyntax val="Upper( Trim( {0,2} ) ) = 'TASK3'"/>
             <ExpAttribute val="B"/>
           </Expression>
           <Expression id="1">

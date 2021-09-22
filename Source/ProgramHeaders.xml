@@ -28,7 +28,7 @@
       <SourceFileTimeStamp _date="737971" _time="44132" date="30/06/2021" time="12:15:32"/>
     </Program>
     <Program>
-      <Header Description="Novo Arquivo" ISN_2="1" LastIsn="1" id="2">
+      <Header Description="New File" ISN_2="1" LastIsn="1" id="2">
         <ExecutionRight comp="-1"/>
         <Resident val="N"/>
         <SQL val="N"/>
@@ -43,12 +43,12 @@
         <Offline val="N"/>
         <FormType val="N"/>
         <DotNetObjectExists val="N"/>
-        <LastModified _date="737974" _time="64767" date="03/07/2021" time="17:59:27"/>
+        <LastModified _date="738055" _time="85171" date="22/09/2021" time="23:39:31"/>
       </Header>
-      <SourceFileTimeStamp _date="737974" _time="75567" date="03/07/2021" time="20:59:27"/>
+      <SourceFileTimeStamp _date="738055" _time="65371" date="22/09/2021" time="18:09:31"/>
     </Program>
     <Program>
-      <Header Description="Operacao Demorada" ISN_2="1" LastIsn="1" id="3">
+      <Header Description="Delayed Operation" ISN_2="1" LastIsn="1" id="3">
         <ExecutionRight comp="-1"/>
         <Resident val="N"/>
         <SQL val="N"/>
@@ -68,12 +68,12 @@
         <Offline val="N"/>
         <FormType val="M"/>
         <DotNetObjectExists val="N"/>
-        <LastModified _date="737974" _time="65495" date="03/07/2021" time="18:11:35"/>
+        <LastModified _date="738055" _time="85181" date="22/09/2021" time="23:39:41"/>
       </Header>
-      <SourceFileTimeStamp _date="737974" _time="76295" date="03/07/2021" time="21:11:35"/>
+      <SourceFileTimeStamp _date="738055" _time="65381" date="22/09/2021" time="18:09:41"/>
     </Program>
     <Program>
-      <Header Description="...Tarefa Longa (BATCH)" ISN_2="1" LastIsn="1" id="4">
+      <Header Description="Long Task (BATCH)" ISN_2="1" LastIsn="1" id="4">
         <ExecutionRight comp="-1"/>
         <Resident val="N"/>
         <SQL val="N"/>
@@ -90,9 +90,9 @@
         <Offline val="N"/>
         <FormType val="N"/>
         <DotNetObjectExists val="N"/>
-        <LastModified _date="737974" _time="65377" date="03/07/2021" time="18:09:37"/>
+        <LastModified _date="738055" _time="84912" date="22/09/2021" time="23:35:12"/>
       </Header>
-      <SourceFileTimeStamp _date="737974" _time="76177" date="03/07/2021" time="21:09:37"/>
+      <SourceFileTimeStamp _date="738055" _time="65112" date="22/09/2021" time="18:05:12"/>
     </Program>
   </ProgramsRepositoryHeaders>
 

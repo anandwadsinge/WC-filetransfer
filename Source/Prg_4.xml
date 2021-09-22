@@ -13,7 +13,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="...Tarefa Longa (BATCH)" ISN_2="1" LastIsn="1" id="4">
+        <Header Description="Long Task (BATCH)" ISN_2="1" LastIsn="1" id="4">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -30,7 +30,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737974" _time="65377" date="03/07/2021" time="18:09:37"/>
+          <LastModified _date="738055" _time="84912" date="22/09/2021" time="23:35:12"/>
         </Header>
         <ItemIsn val="1"/>
         <Resource>
@@ -170,7 +170,7 @@
           <FormEntry id="1">
             <PropertyList model="FORM_GUI0">
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="...Tarefa Longa (BATCH)"/>
+              <FormName id="311" valUnicode="Long Task (BATCH)"/>
             </PropertyList>
           </FormEntry>
         </TaskForms>
